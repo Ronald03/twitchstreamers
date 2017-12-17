@@ -1,0 +1,137 @@
+/**{
+  border: 1px dashed black;
+}*/
+body{
+  background: url(https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?dpr=1.5&amp;auto=format&amp;fit=crop&amp;w=1500&amp;h=1000&amp;q=80&amp;cs=tinysrgb&amp;crop=);
+  background-size: cover;
+  background-color:#d966ff;
+}
+.container{
+  height:100%;
+  background-color:;//rgba(121, 70, 225,0.7);
+  padding-bottom:10px;
+}
+
+.jumbotron{
+  background-color: rgba(191, 0, 255,0.7);
+}
+
+.jumbotron h1{
+  font-size:90px;
+  font-family: 'Passion One', cursive; 
+  font-weight: 900;
+  color:white;
+  letter-spacing:5px;
+}
+
+.side-bar{
+  width:400px;
+  background-color: ;
+  float:left;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.streaming{
+  width: 650px;
+  height:100%;
+  background-color: transparent;
+  position: relative;
+  display: none;
+  box-shadow: inset 0px 0px 5px 2px #a6a6a6;
+  padding: 10px 10px 10px 10px;
+}
+
+#tabs{
+  width:100%;
+  height:70px;
+  background-color: #d9d9d9;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;  
+  box-shadow: 0px 0px 5px 2px #a6a6a6;
+  margin-top:5px ;
+  padding: 10px;
+}
+.image{
+  width:100px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 10px;
+
+
+}
+
+.channelName{
+  width:100px;
+  height: 50px;
+}
+
+.streaming .description{
+  width:300px;
+  height: 50px;
+  margin-left: 30px
+}
+.content{ 
+  background-color: ;
+  position:relative;
+  float: left;
+  margin-left: 10px;
+  
+}
+
+.channelName p, .description p{
+  font-size: 15px;
+  margin-top: 10px;
+  padding-left: 2px;
+  font-style: italic;
+}
+
+.row .twitch{
+  width:400px;
+  height:100px;
+  background-color: rgba(255, 71, 26, 0.7);
+  border-bottom:1px solid black;
+  margin-left: 10px;
+  position: relative;
+  color:white;
+  cursor: pointer;
+}
+.twitch:hover{
+  background-color: #ff471a;
+}
+
+.twitch:active{background-color: #ff471a;}
+.twitch p{
+  font-size: 20px;
+  font-family: 'Passion One', cursive; 
+  color: inherit;
+  background-color:;
+  text-align: center;
+  position: relative;
+  float: left;
+  margin-top: 25px;
+  margin-left: 150px;
+}
+
+.inline{
+  display: inline-block;
+}
+
+a{
+  outline: none;
+}
+a:hover{
+  color:#ff471a;
+}
+.all{
+ 
+}
+
+.online{
+  
+}
+
+.offline{
+  
+}
